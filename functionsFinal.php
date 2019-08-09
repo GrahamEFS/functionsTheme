@@ -1441,8 +1441,7 @@ function add_kiosk_options() {
             'menu_title'	=> 'Navigation',
             'parent_slug'	=> 'edit.php?post_type=efs_kiosk',
         ));
-    }
-}
+
 add_action('acf/init', 'add_kiosk_options');
 
 function add_kiosk_options() {
